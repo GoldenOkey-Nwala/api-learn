@@ -33,5 +33,5 @@ The project uses the following dependencies:
 If you find any issues or have suggestions for improvement, feel free to create a pull request.
 
 ## Reference
-
+The API used is a [random API.](https://randomuser.me/api/?results=20)
 Some resources for this repo were gotten from the [Flutter REST API](https://youtube.com/playlist?list=PLXbYsh3rUPSzuLcZsIkpDmftSQbFmUq9x) youtube course by [Nitish Kumar Singh.](https://www.youtube.com/@NitishKumarSingh)

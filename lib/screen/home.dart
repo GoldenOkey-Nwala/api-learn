@@ -30,11 +30,11 @@ class _HomeState extends State<Home> {
         itemCount: users.length,
         itemBuilder: (context, index) {
           final user = users[index];
-          final color = user.gender == 'male' ? Colors.blue : Colors.pink;
+          // final color = user.gender == 'male' ? Colors.blue : Colors.pink;
           return ListTile(
             title: Text(user.fullName),
-            subtitle: Text(user.phone),
-            tileColor: color,
+            subtitle: Text(user.location.state),
+            // tileColor: color,
           );
         },
       ),
