@@ -1,4 +1,3 @@
-
 class UserName {
   final String title;
   final String first;
@@ -9,4 +8,12 @@ class UserName {
     required this.first,
     required this.last,
   });
+
+  factory UserName.fromMap(Map<String, dynamic> json) {
+    return UserName(
+      title: json['title'],
+      first: json['first'],
+      last: json['last'],
+    );
+  }
 }
